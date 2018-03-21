@@ -16,4 +16,7 @@ sudo apt-get install docker-ce -y
 sudo apt-get install docker-compose -y
 sudo groupadd docker
 sudo usermod -aG docker $USER
+curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+sudo apt-get install git-lfs
+git lfs install
 sudo reboot
